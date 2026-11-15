@@ -3,9 +3,8 @@
   if (!window.L || !conteneur) return;
 
   const map = L.map("map", { zoomControl: true }).setView([9.458, -5.629], 15);
-  setTimeout(() => map.invalidateSize(), 250);
+  new ResizeObserver(() => map.invalidateSize()).observe(conteneur);
 
-  // Grille topographique locale (toujours visible même sans internet)
   const GrilleLocale = L.GridLayer.extend({
     createTile: function (coords) {
       const c = document.createElement("canvas");
@@ -15,35 +14,19 @@
       ctx.fillRect(0, 0, 256, 256);
       ctx.strokeStyle = "rgba(34, 197, 94, 0.16)";
       ctx.strokeRect(0, 0, 256, 256);
-      ctx.fillStyle = "rgba(143, 158, 152, 0.45)";
-      ctx.font = "10px monospace";
-      ctx.fillText(`Z${coords.z} • ${coords.x},${coords.y}`, 10, 20);
       return c;
     },
   });
   new GrilleLocale().addTo(map);
 
-  const coucheSat = L.tileLayer(
+  L.tileLayer(
     "https://arcgisonline.com{z}/{y}/{x}",
     { maxZoom: 19 }
   ).addTo(map);
-  const couchePlan = L.tileLayer(
-    "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
-    { maxZoom: 19 }
-  );
 
   let marqueur = null;
   const calqueAnalyse = L.layerGroup().addTo(map);
   let dernierePos = { lat: 9.458, lon: -5.629 };
-
-  window.basculerFond = function (mode) {
-    document.getElementById("btn-sat").classList.toggle("active", mode === "sat");
-    document.getElementById("btn-plan").classList.toggle("active", mode === "plan");
-    if (mode === "sat") { map.removeLayer(couchePlan); coucheSat.addTo(map); }
-    else { map.removeLayer(coucheSat); couchePlan.addTo(map); }
-  };
-
-  window.centrerCarte = function () { map.invalidateSize(); map.setView([dernierePos.lat, dernierePos.lon], 16); };
 
   window.placerPositionCarte = function (lat, lon, libelle) {
     dernierePos = { lat, lon };
@@ -57,9 +40,10 @@
   };
 
   window.afficherAnalyseParcelle = function (pt) {
-    const lat = pt.lat || dernierePos.lat;
-    const lon = pt.lon || dernierePos.lon;
-    window.placerPositionCarte(lat, lon, `Secteur : ${pt.ville.toUpperCase()}`);
+    const lat = dernierePos.lat;
+    const lon = dernierePos.lon;
+    map.invalidateSize();
+    map.setView([lat, lon], 16);
     calqueAnalyse.clearLayers();
     const d = 0.0012;
     L.polygon([[lat - d, lon - d], [lat + d, lon - d], [lat + d, lon + d], [lat - d, lon + d]],
@@ -79,7 +63,7 @@
   if (navigator.geolocation) {
     navigator.geolocation.getCurrentPosition(
       (p) => window.placerPositionCarte(p.coords.latitude, p.coords.longitude, "Votre position GPS"),
-      () => {}, { timeout: 4000 }
+      () => {}, { timeout: 5000 }
     );
   }
 })();

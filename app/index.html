@@ -3,35 +3,66 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-  <meta name="theme-color" content="#5b3a1e">
-  <title>Conseil Rotation</title>
+  <title>Field Intelligence</title>
   <link rel="manifest" href="manifest.webmanifest">
   <link rel="icon" href="icone.svg" type="image/svg+xml">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <header>
-    <img src="icone.svg" alt="" width="42" height="42">
-    <div>
-      <h1>Conseil Rotation</h1>
-      <p id="etat-reseau">Vérification de la connexion</p>
+    <div class="brand">
+      <img src="icone.svg" alt="" width="26" height="26">
+      <span>☰</span>
+      <h1>Field Intelligence</h1>
+      <span id="etat-reseau">Hors ligne</span>
     </div>
-    <button id="mode-voix" type="button" aria-pressed="false" title="Activer le mode voix">
-      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 9h4l5-4v14l-5-4H4z"/><path d="M16 8a5 5 0 0 1 0 8M18.5 5.5a8.5 8.5 0 0 1 0 13" fill="none" stroke="currentColor" stroke-width="2"/></svg>
-      <span>Voix</span>
-    </button>
+    <button id="mode-voix" type="button" aria-pressed="false"><span>Voix</span></button>
   </header>
   <div id="demarrage" hidden>
-    <div class="marque"><img src="icone.svg" alt="" width="40" height="40">Conseil Rotation</div>
-    <button id="commencer-voix" type="button" aria-label="Commencer avec la voix">
-      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 9h4l5-4v14l-5-4H4z"/><path d="M16 8a5 5 0 0 1 0 8M18.5 5.5a8.5 8.5 0 0 1 0 13" fill="none" stroke="currentColor" stroke-width="2"/></svg>
-    </button>
-    <p>Touchez pour commencer</p>
-    <p class="sous-titre">Je vous parle et vous lis chaque choix. Touchez ensuite le bouton de la bonne couleur.</p>
-    <button id="commencer-texte" type="button">Je préfère lire</button>
+    <div class="marque"><img src="icone.svg" alt="" width="36" height="36">Field Intelligence</div>
+    <button id="commencer-voix" type="button">🔊</button>
+    <p>Touchez pour démarrer</p>
+    <p class="sous-titre">Observation satellite et conseil de rotation sans connexion.</p>
+    <button id="commencer-texte" type="button">Ouvrir le tableau de bord</button>
   </div>
-  <main id="fil" aria-live="polite"></main>
-  <footer id="choix"></footer>
+  <div class="workspace">
+    <nav class="side-rail">
+      <button type="button" class="rail-btn active">🛰️</button>
+      <button type="button" class="rail-btn" onclick="if(typeof localiser==='function')localiser()">📍</button>
+      <button type="button" class="rail-btn" onclick="if(typeof photographier==='function')photographier()">📷</button>
+      <button type="button" class="rail-btn" onclick="if(typeof accueil==='function')accueil()">↻</button>
+    </nav>
+    <section class="map-stage">
+      <div class="map-toolbar">
+        <div><span class="pill-btn" id="badge-zone">Zone : Korhogo / Bouaké</span> <span class="pill-btn" id="badge-sante">Vigueur : -- %</span></div>
+        <div><span class="tab active">NDVI</span> <span class="tab">SOL</span> <span class="tab">CLIMAT</span></div>
+      </div>
+      <div class="parcel-canvas">
+        <svg viewBox="0 0 600 340" class="parcel-svg" preserveAspectRatio="xMidYMid slice">
+          <rect width="600" height="340" fill="#17261c"/>
+          <path d="M0,40 L600,15 L600,340 L0,340 Z" fill="#1d3324"/>
+          <polygon points="215,28 385,22 440,312 185,318" fill="#3a6b35" stroke="#86efac" stroke-width="2" stroke-dasharray="6,4"/>
+          <polygon id="zone-stress-poly" points="215,28 295,25 275,315 185,318" fill="#eab308" fill-opacity="0.72"/>
+          <text x="310" y="175" fill="#fff" font-size="13" font-weight="700" text-anchor="middle" id="map-label">PARCELLE ANALYSÉE (10M)</text>
+        </svg>
+        <div class="legend-box">
+          <div class="legend-title">Vigueur Satellite</div>
+          <div class="legend-item"><span class="dot" style="background:#22c55e"></span> Élevée</div>
+          <div class="legend-item"><span class="dot" style="background:#eab308"></span> Modérée</div>
+          <div class="legend-item"><span class="dot" style="background:#ef4444"></span> Stress</div>
+        </div>
+      </div>
+      <div class="weather-strip">
+        <div class="weather-header"><span>Profil Agro-Climatique NASA (2001–2024)</span><span class="weather-tag">Hors-ligne</span></div>
+        <div class="jauge-fond"><div class="jauge-barre vert" id="kpi-barre" style="width: 68%"></div></div>
+      </div>
+    </section>
+    <aside class="assistant-drawer">
+      <div class="drawer-header"><span>Conseiller Agronome IA</span><span class="drawer-badge">Actif</span></div>
+      <main id="fil" aria-live="polite"></main>
+      <footer id="choix"></footer>
+    </aside>
+  </div>
   <script src="app.js"></script>
 </body>
 </html>

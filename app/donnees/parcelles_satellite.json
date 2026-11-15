@@ -1,0 +1,454 @@
+{
+  "points": [
+    {
+      "ville": "bouake",
+      "point_id": "01",
+      "lat": 7.55,
+      "lon": -5.15,
+      "occupation_sol": "Savane (Savannas)",
+      "ndvi_pluie": 0.709,
+      "ndvi_seche": 0.506,
+      "rupture_recommandee": false,
+      "resume": "Observation satellite NASA MODIS autour de Bouake. Indice de vigueur végétale de 0,71 en saison des pluies et 0,51 en saison sèche. Couvert végétal dense en saison des pluies : poursuite possible de la rotation planifiée.",
+      "explications": [
+        {
+          "texte": "Occupation du sol mesurée par satellite : Savane (Savannas).",
+          "niveau": "mesure",
+          "source": "NASA AppEEARS MODIS MCD12Q1 (2001 à 2024)",
+          "detail": "Point de grille bouake_01 (7.55, -5.15)."
+        },
+        {
+          "texte": "Couvert végétal dense en saison des pluies : poursuite possible de la rotation planifiée.",
+          "niveau": "hypothese",
+          "source": "Règle agronomique CodeX Africa",
+          "detail": "À confirmer au champ avec votre conseiller ANADER."
+        }
+      ]
+    },
+    {
+      "ville": "bouake",
+      "point_id": "02",
+      "lat": 7.55,
+      "lon": -5.05,
+      "occupation_sol": "Savane (Savannas)",
+      "ndvi_pluie": 0.751,
+      "ndvi_seche": 0.598,
+      "rupture_recommandee": false,
+      "resume": "Observation satellite NASA MODIS autour de Bouake. Indice de vigueur végétale de 0,75 en saison des pluies et 0,60 en saison sèche. Couvert végétal dense en saison des pluies : poursuite possible de la rotation planifiée.",
+      "explications": [
+        {
+          "texte": "Occupation du sol mesurée par satellite : Savane (Savannas).",
+          "niveau": "mesure",
+          "source": "NASA AppEEARS MODIS MCD12Q1 (2001 à 2024)",
+          "detail": "Point de grille bouake_02 (7.55, -5.05)."
+        },
+        {
+          "texte": "Couvert végétal dense en saison des pluies : poursuite possible de la rotation planifiée.",
+          "niveau": "hypothese",
+          "source": "Règle agronomique CodeX Africa",
+          "detail": "À confirmer au champ avec votre conseiller ANADER."
+        }
+      ]
+    },
+    {
+      "ville": "bouake",
+      "point_id": "03",
+      "lat": 7.55,
+      "lon": -4.95,
+      "occupation_sol": "Savane (Savannas)",
+      "ndvi_pluie": 0.744,
+      "ndvi_seche": 0.545,
+      "rupture_recommandee": false,
+      "resume": "Observation satellite NASA MODIS autour de Bouake. Indice de vigueur végétale de 0,74 en saison des pluies et 0,55 en saison sèche. Couvert végétal dense en saison des pluies : poursuite possible de la rotation planifiée.",
+      "explications": [
+        {
+          "texte": "Occupation du sol mesurée par satellite : Savane (Savannas).",
+          "niveau": "mesure",
+          "source": "NASA AppEEARS MODIS MCD12Q1 (2001 à 2024)",
+          "detail": "Point de grille bouake_03 (7.55, -4.95)."
+        },
+        {
+          "texte": "Couvert végétal dense en saison des pluies : poursuite possible de la rotation planifiée.",
+          "niveau": "hypothese",
+          "source": "Règle agronomique CodeX Africa",
+          "detail": "À confirmer au champ avec votre conseiller ANADER."
+        }
+      ]
+    },
+    {
+      "ville": "bouake",
+      "point_id": "04",
+      "lat": 7.65,
+      "lon": -5.15,
+      "occupation_sol": "Savane (Savannas)",
+      "ndvi_pluie": 0.715,
+      "ndvi_seche": 0.527,
+      "rupture_recommandee": false,
+      "resume": "Observation satellite NASA MODIS autour de Bouake. Indice de vigueur végétale de 0,71 en saison des pluies et 0,53 en saison sèche. Couvert végétal dense en saison des pluies : poursuite possible de la rotation planifiée.",
+      "explications": [
+        {
+          "texte": "Occupation du sol mesurée par satellite : Savane (Savannas).",
+          "niveau": "mesure",
+          "source": "NASA AppEEARS MODIS MCD12Q1 (2001 à 2024)",
+          "detail": "Point de grille bouake_04 (7.65, -5.15)."
+        },
+        {
+          "texte": "Couvert végétal dense en saison des pluies : poursuite possible de la rotation planifiée.",
+          "niveau": "hypothese",
+          "source": "Règle agronomique CodeX Africa",
+          "detail": "À confirmer au champ avec votre conseiller ANADER."
+        }
+      ]
+    },
+    {
+      "ville": "bouake",
+      "point_id": "05",
+      "lat": 7.65,
+      "lon": -5.05,
+      "occupation_sol": "Savane (Savannas)",
+      "ndvi_pluie": 0.734,
+      "ndvi_seche": 0.544,
+      "rupture_recommandee": false,
+      "resume": "Observation satellite NASA MODIS autour de Bouake. Indice de vigueur végétale de 0,73 en saison des pluies et 0,54 en saison sèche. Couvert végétal dense en saison des pluies : poursuite possible de la rotation planifiée.",
+      "explications": [
+        {
+          "texte": "Occupation du sol mesurée par satellite : Savane (Savannas).",
+          "niveau": "mesure",
+          "source": "NASA AppEEARS MODIS MCD12Q1 (2001 à 2024)",
+          "detail": "Point de grille bouake_05 (7.65, -5.05)."
+        },
+        {
+          "texte": "Couvert végétal dense en saison des pluies : poursuite possible de la rotation planifiée.",
+          "niveau": "hypothese",
+          "source": "Règle agronomique CodeX Africa",
+          "detail": "À confirmer au champ avec votre conseiller ANADER."
+        }
+      ]
+    },
+    {
+      "ville": "bouake",
+      "point_id": "06",
+      "lat": 7.65,
+      "lon": -4.95,
+      "occupation_sol": "Savane (Savannas)",
+      "ndvi_pluie": 0.754,
+      "ndvi_seche": 0.602,
+      "rupture_recommandee": false,
+      "resume": "Observation satellite NASA MODIS autour de Bouake. Indice de vigueur végétale de 0,75 en saison des pluies et 0,60 en saison sèche. Couvert végétal dense en saison des pluies : poursuite possible de la rotation planifiée.",
+      "explications": [
+        {
+          "texte": "Occupation du sol mesurée par satellite : Savane (Savannas).",
+          "niveau": "mesure",
+          "source": "NASA AppEEARS MODIS MCD12Q1 (2001 à 2024)",
+          "detail": "Point de grille bouake_06 (7.65, -4.95)."
+        },
+        {
+          "texte": "Couvert végétal dense en saison des pluies : poursuite possible de la rotation planifiée.",
+          "niveau": "hypothese",
+          "source": "Règle agronomique CodeX Africa",
+          "detail": "À confirmer au champ avec votre conseiller ANADER."
+        }
+      ]
+    },
+    {
+      "ville": "bouake",
+      "point_id": "07",
+      "lat": 7.75,
+      "lon": -5.15,
+      "occupation_sol": "Savane (Savannas)",
+      "ndvi_pluie": 0.743,
+      "ndvi_seche": 0.626,
+      "rupture_recommandee": false,
+      "resume": "Observation satellite NASA MODIS autour de Bouake. Indice de vigueur végétale de 0,74 en saison des pluies et 0,63 en saison sèche. Couvert végétal dense en saison des pluies : poursuite possible de la rotation planifiée.",
+      "explications": [
+        {
+          "texte": "Occupation du sol mesurée par satellite : Savane (Savannas).",
+          "niveau": "mesure",
+          "source": "NASA AppEEARS MODIS MCD12Q1 (2001 à 2024)",
+          "detail": "Point de grille bouake_07 (7.75, -5.15)."
+        },
+        {
+          "texte": "Couvert végétal dense en saison des pluies : poursuite possible de la rotation planifiée.",
+          "niveau": "hypothese",
+          "source": "Règle agronomique CodeX Africa",
+          "detail": "À confirmer au champ avec votre conseiller ANADER."
+        }
+      ]
+    },
+    {
+      "ville": "bouake",
+      "point_id": "08",
+      "lat": 7.75,
+      "lon": -5.05,
+      "occupation_sol": "Zone urbaine et bâtie (Urban)",
+      "ndvi_pluie": 0.671,
+      "ndvi_seche": 0.468,
+      "rupture_recommandee": false,
+      "resume": "Observation satellite NASA MODIS autour de Bouake. Indice de vigueur végétale de 0,67 en saison des pluies et 0,47 en saison sèche. Zone urbaine détectée par satellite : les conseils concernent les parcelles agricoles voisines.",
+      "explications": [
+        {
+          "texte": "Occupation du sol mesurée par satellite : Zone urbaine et bâtie (Urban).",
+          "niveau": "mesure",
+          "source": "NASA AppEEARS MODIS MCD12Q1 (2001 à 2024)",
+          "detail": "Point de grille bouake_08 (7.75, -5.05)."
+        },
+        {
+          "texte": "Zone urbaine détectée par satellite : les conseils concernent les parcelles agricoles voisines.",
+          "niveau": "hypothese",
+          "source": "Règle agronomique CodeX Africa",
+          "detail": "À confirmer au champ avec votre conseiller ANADER."
+        }
+      ]
+    },
+    {
+      "ville": "bouake",
+      "point_id": "09",
+      "lat": 7.75,
+      "lon": -4.95,
+      "occupation_sol": "Savane (Savannas)",
+      "ndvi_pluie": 0.671,
+      "ndvi_seche": 0.473,
+      "rupture_recommandee": false,
+      "resume": "Observation satellite NASA MODIS autour de Bouake. Indice de vigueur végétale de 0,67 en saison des pluies et 0,47 en saison sèche. Couvert végétal dense en saison des pluies : poursuite possible de la rotation planifiée.",
+      "explications": [
+        {
+          "texte": "Occupation du sol mesurée par satellite : Savane (Savannas).",
+          "niveau": "mesure",
+          "source": "NASA AppEEARS MODIS MCD12Q1 (2001 à 2024)",
+          "detail": "Point de grille bouake_09 (7.75, -4.95)."
+        },
+        {
+          "texte": "Couvert végétal dense en saison des pluies : poursuite possible de la rotation planifiée.",
+          "niveau": "hypothese",
+          "source": "Règle agronomique CodeX Africa",
+          "detail": "À confirmer au champ avec votre conseiller ANADER."
+        }
+      ]
+    },
+    {
+      "ville": "korhogo",
+      "point_id": "01",
+      "lat": 9.35,
+      "lon": -5.75,
+      "occupation_sol": "Prairies (Grasslands)",
+      "ndvi_pluie": 0.593,
+      "ndvi_seche": 0.398,
+      "rupture_recommandee": true,
+      "resume": "Observation satellite NASA MODIS autour de Korhogo. Indice de vigueur végétale de 0,59 en saison des pluies et 0,40 en saison sèche. Vigueur végétale modérée en saison des pluies : privilégier une légumineuse (arachide, niébé) pour enrichir le sol.",
+      "explications": [
+        {
+          "texte": "Occupation du sol mesurée par satellite : Prairies (Grasslands).",
+          "niveau": "mesure",
+          "source": "NASA AppEEARS MODIS MCD12Q1 (2001 à 2024)",
+          "detail": "Point de grille korhogo_01 (9.35, -5.75)."
+        },
+        {
+          "texte": "Vigueur végétale modérée en saison des pluies : privilégier une légumineuse (arachide, niébé) pour enrichir le sol.",
+          "niveau": "hypothese",
+          "source": "Règle agronomique CodeX Africa",
+          "detail": "À confirmer au champ avec votre conseiller ANADER."
+        }
+      ]
+    },
+    {
+      "ville": "korhogo",
+      "point_id": "02",
+      "lat": 9.35,
+      "lon": -5.65,
+      "occupation_sol": "Prairies (Grasslands)",
+      "ndvi_pluie": 0.615,
+      "ndvi_seche": 0.499,
+      "rupture_recommandee": true,
+      "resume": "Observation satellite NASA MODIS autour de Korhogo. Indice de vigueur végétale de 0,61 en saison des pluies et 0,50 en saison sèche. Vigueur végétale modérée en saison des pluies : privilégier une légumineuse (arachide, niébé) pour enrichir le sol.",
+      "explications": [
+        {
+          "texte": "Occupation du sol mesurée par satellite : Prairies (Grasslands).",
+          "niveau": "mesure",
+          "source": "NASA AppEEARS MODIS MCD12Q1 (2001 à 2024)",
+          "detail": "Point de grille korhogo_02 (9.35, -5.65)."
+        },
+        {
+          "texte": "Vigueur végétale modérée en saison des pluies : privilégier une légumineuse (arachide, niébé) pour enrichir le sol.",
+          "niveau": "hypothese",
+          "source": "Règle agronomique CodeX Africa",
+          "detail": "À confirmer au champ avec votre conseiller ANADER."
+        }
+      ]
+    },
+    {
+      "ville": "korhogo",
+      "point_id": "03",
+      "lat": 9.35,
+      "lon": -5.55,
+      "occupation_sol": "Prairies (Grasslands)",
+      "ndvi_pluie": 0.559,
+      "ndvi_seche": 0.396,
+      "rupture_recommandee": true,
+      "resume": "Observation satellite NASA MODIS autour de Korhogo. Indice de vigueur végétale de 0,56 en saison des pluies et 0,40 en saison sèche. Vigueur végétale modérée en saison des pluies : privilégier une légumineuse (arachide, niébé) pour enrichir le sol.",
+      "explications": [
+        {
+          "texte": "Occupation du sol mesurée par satellite : Prairies (Grasslands).",
+          "niveau": "mesure",
+          "source": "NASA AppEEARS MODIS MCD12Q1 (2001 à 2024)",
+          "detail": "Point de grille korhogo_03 (9.35, -5.55)."
+        },
+        {
+          "texte": "Vigueur végétale modérée en saison des pluies : privilégier une légumineuse (arachide, niébé) pour enrichir le sol.",
+          "niveau": "hypothese",
+          "source": "Règle agronomique CodeX Africa",
+          "detail": "À confirmer au champ avec votre conseiller ANADER."
+        }
+      ]
+    },
+    {
+      "ville": "korhogo",
+      "point_id": "04",
+      "lat": 9.45,
+      "lon": -5.75,
+      "occupation_sol": "Prairies (Grasslands)",
+      "ndvi_pluie": 0.627,
+      "ndvi_seche": 0.442,
+      "rupture_recommandee": true,
+      "resume": "Observation satellite NASA MODIS autour de Korhogo. Indice de vigueur végétale de 0,63 en saison des pluies et 0,44 en saison sèche. Vigueur végétale modérée en saison des pluies : privilégier une légumineuse (arachide, niébé) pour enrichir le sol.",
+      "explications": [
+        {
+          "texte": "Occupation du sol mesurée par satellite : Prairies (Grasslands).",
+          "niveau": "mesure",
+          "source": "NASA AppEEARS MODIS MCD12Q1 (2001 à 2024)",
+          "detail": "Point de grille korhogo_04 (9.45, -5.75)."
+        },
+        {
+          "texte": "Vigueur végétale modérée en saison des pluies : privilégier une légumineuse (arachide, niébé) pour enrichir le sol.",
+          "niveau": "hypothese",
+          "source": "Règle agronomique CodeX Africa",
+          "detail": "À confirmer au champ avec votre conseiller ANADER."
+        }
+      ]
+    },
+    {
+      "ville": "korhogo",
+      "point_id": "05",
+      "lat": 9.45,
+      "lon": -5.65,
+      "occupation_sol": "Prairies (Grasslands)",
+      "ndvi_pluie": 0.561,
+      "ndvi_seche": 0.337,
+      "rupture_recommandee": true,
+      "resume": "Observation satellite NASA MODIS autour de Korhogo. Indice de vigueur végétale de 0,56 en saison des pluies et 0,34 en saison sèche. Vigueur végétale modérée en saison des pluies : privilégier une légumineuse (arachide, niébé) pour enrichir le sol.",
+      "explications": [
+        {
+          "texte": "Occupation du sol mesurée par satellite : Prairies (Grasslands).",
+          "niveau": "mesure",
+          "source": "NASA AppEEARS MODIS MCD12Q1 (2001 à 2024)",
+          "detail": "Point de grille korhogo_05 (9.45, -5.65)."
+        },
+        {
+          "texte": "Vigueur végétale modérée en saison des pluies : privilégier une légumineuse (arachide, niébé) pour enrichir le sol.",
+          "niveau": "hypothese",
+          "source": "Règle agronomique CodeX Africa",
+          "detail": "À confirmer au champ avec votre conseiller ANADER."
+        }
+      ]
+    },
+    {
+      "ville": "korhogo",
+      "point_id": "06",
+      "lat": 9.45,
+      "lon": -5.55,
+      "occupation_sol": "Prairies (Grasslands)",
+      "ndvi_pluie": 0.612,
+      "ndvi_seche": 0.439,
+      "rupture_recommandee": true,
+      "resume": "Observation satellite NASA MODIS autour de Korhogo. Indice de vigueur végétale de 0,61 en saison des pluies et 0,44 en saison sèche. Vigueur végétale modérée en saison des pluies : privilégier une légumineuse (arachide, niébé) pour enrichir le sol.",
+      "explications": [
+        {
+          "texte": "Occupation du sol mesurée par satellite : Prairies (Grasslands).",
+          "niveau": "mesure",
+          "source": "NASA AppEEARS MODIS MCD12Q1 (2001 à 2024)",
+          "detail": "Point de grille korhogo_06 (9.45, -5.55)."
+        },
+        {
+          "texte": "Vigueur végétale modérée en saison des pluies : privilégier une légumineuse (arachide, niébé) pour enrichir le sol.",
+          "niveau": "hypothese",
+          "source": "Règle agronomique CodeX Africa",
+          "detail": "À confirmer au champ avec votre conseiller ANADER."
+        }
+      ]
+    },
+    {
+      "ville": "korhogo",
+      "point_id": "07",
+      "lat": 9.55,
+      "lon": -5.75,
+      "occupation_sol": "Prairies (Grasslands)",
+      "ndvi_pluie": 0.664,
+      "ndvi_seche": 0.461,
+      "rupture_recommandee": false,
+      "resume": "Observation satellite NASA MODIS autour de Korhogo. Indice de vigueur végétale de 0,66 en saison des pluies et 0,46 en saison sèche. Couvert végétal dense en saison des pluies : poursuite possible de la rotation planifiée.",
+      "explications": [
+        {
+          "texte": "Occupation du sol mesurée par satellite : Prairies (Grasslands).",
+          "niveau": "mesure",
+          "source": "NASA AppEEARS MODIS MCD12Q1 (2001 à 2024)",
+          "detail": "Point de grille korhogo_07 (9.55, -5.75)."
+        },
+        {
+          "texte": "Couvert végétal dense en saison des pluies : poursuite possible de la rotation planifiée.",
+          "niveau": "hypothese",
+          "source": "Règle agronomique CodeX Africa",
+          "detail": "À confirmer au champ avec votre conseiller ANADER."
+        }
+      ]
+    },
+    {
+      "ville": "korhogo",
+      "point_id": "08",
+      "lat": 9.55,
+      "lon": -5.65,
+      "occupation_sol": "Prairies (Grasslands)",
+      "ndvi_pluie": 0.601,
+      "ndvi_seche": 0.458,
+      "rupture_recommandee": true,
+      "resume": "Observation satellite NASA MODIS autour de Korhogo. Indice de vigueur végétale de 0,60 en saison des pluies et 0,46 en saison sèche. Vigueur végétale modérée en saison des pluies : privilégier une légumineuse (arachide, niébé) pour enrichir le sol.",
+      "explications": [
+        {
+          "texte": "Occupation du sol mesurée par satellite : Prairies (Grasslands).",
+          "niveau": "mesure",
+          "source": "NASA AppEEARS MODIS MCD12Q1 (2001 à 2024)",
+          "detail": "Point de grille korhogo_08 (9.55, -5.65)."
+        },
+        {
+          "texte": "Vigueur végétale modérée en saison des pluies : privilégier une légumineuse (arachide, niébé) pour enrichir le sol.",
+          "niveau": "hypothese",
+          "source": "Règle agronomique CodeX Africa",
+          "detail": "À confirmer au champ avec votre conseiller ANADER."
+        }
+      ]
+    },
+    {
+      "ville": "korhogo",
+      "point_id": "09",
+      "lat": 9.55,
+      "lon": -5.55,
+      "occupation_sol": "Prairies (Grasslands)",
+      "ndvi_pluie": 0.588,
+      "ndvi_seche": 0.414,
+      "rupture_recommandee": true,
+      "resume": "Observation satellite NASA MODIS autour de Korhogo. Indice de vigueur végétale de 0,59 en saison des pluies et 0,41 en saison sèche. Vigueur végétale modérée en saison des pluies : privilégier une légumineuse (arachide, niébé) pour enrichir le sol.",
+      "explications": [
+        {
+          "texte": "Occupation du sol mesurée par satellite : Prairies (Grasslands).",
+          "niveau": "mesure",
+          "source": "NASA AppEEARS MODIS MCD12Q1 (2001 à 2024)",
+          "detail": "Point de grille korhogo_09 (9.55, -5.55)."
+        },
+        {
+          "texte": "Vigueur végétale modérée en saison des pluies : privilégier une légumineuse (arachide, niébé) pour enrichir le sol.",
+          "niveau": "hypothese",
+          "source": "Règle agronomique CodeX Africa",
+          "detail": "À confirmer au champ avec votre conseiller ANADER."
+        }
+      ]
+    }
+  ]
+}

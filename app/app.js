@@ -376,9 +376,36 @@ function resultat(priorite) {
   dire(r.resume, () => dire(alerte, actionsResultat));
 }
 
+
+let donneesSatellite = null;
+
+async function chargerSatellite() {
+  if (donneesSatellite) return donneesSatellite;
+  const enCache = window.caches ? await caches.match("donnees/parcelles_satellite.json") : null;
+  const reponse = enCache || await fetch("donnees/parcelles_satellite.json");
+  donneesSatellite = await reponse.json();
+  return donneesSatellite;
+}
+
+async function diagnosticSatellite(retour = actionsResultat) {
+  try {
+    const sat = await chargerSatellite();
+    const pos = positionMemorisee() || donnees.lieux[etat.lieu];
+    const pt = sat.points.reduce((best, cur) =>
+      distanceKm(pos, cur) < distanceKm(pos, best) ? cur : best, sat.points[0]);
+    dire(pt.resume, (b) => {
+      pt.explications.forEach((e) => preuve(b, e));
+      retour();
+    });
+  } catch (e) {
+    dire("Les données satellites ne sont pas encore installées sur ce téléphone.", retour);
+  }
+}
+
 function actionsResultat() {
   proposer([
     ["Pourquoi ?", pourquoi, "pourquoi"],
+    ["Parcelle (Satellite)", () => diagnosticSatellite(actionsResultat), "climat"],
     ["Écouter", ecouter, "ecouter"],
     ["Envoyer à mon conseiller", () => partager(null), "envoyer"],
     ["Photo d'une feuille", photographier, "photo"],

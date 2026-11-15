@@ -405,7 +405,7 @@ async function diagnosticSatellite(retour = actionsResultat) {
 function actionsResultat() {
   proposer([
     ["Pourquoi ?", pourquoi, "pourquoi"],
-    ["Parcelle (Satellite)", () => diagnosticSatellite(actionsResultat), "climat"],
+    ["Vue du champ (Satellite)", () => diagnosticSatellite(actionsResultat), "climat"],
     ["Écouter", ecouter, "ecouter"],
     ["Envoyer à mon conseiller", () => partager(null), "envoyer"],
     ["Photo d'une feuille", photographier, "photo"],

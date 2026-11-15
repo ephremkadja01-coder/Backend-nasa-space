@@ -1,8 +1,8 @@
 // Fonctionnement hors connexion. Tout est servi d'abord depuis le cache, pour que
 // l'application démarre même quand le réseau ne répond pas. Les recommandations sont
 // ensuite mises à jour en arrière-plan si le réseau répond.
-const CACHE = "conseil-rotation-v36";
-const FICHIERS = ["./", "index.html", "style.css", "app.js", "carte.js", "icone.svg", "icone-192.png", "icone-512.png",
+const CACHE = "conseil-rotation-v37";
+const FICHIERS = ["./", "index.html", "style.css", "app.js", "carte.js", "carte/leaflet.css", "carte/leaflet.js", "icone.svg", "icone-192.png", "icone-512.png",
                   "manifest.webmanifest", "donnees/recommandations.json", "donnees/localites.json", "donnees/parcelles_satellite.json"];
 
 async function installer() {

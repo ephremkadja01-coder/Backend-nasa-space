@@ -3,66 +3,85 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-  <title>Field Intelligence</title>
+  <title>Field Intelligence — Conseil Rotation</title>
   <link rel="manifest" href="manifest.webmanifest">
   <link rel="icon" href="icone.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="https://unpkg.com" crossorigin=""/>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <header>
     <div class="brand">
       <img src="icone.svg" alt="" width="26" height="26">
-      <span>☰</span>
       <h1>Field Intelligence</h1>
       <span id="etat-reseau">Hors ligne</span>
     </div>
     <button id="mode-voix" type="button" aria-pressed="false"><span>Voix</span></button>
   </header>
+
   <div id="demarrage" hidden>
     <div class="marque"><img src="icone.svg" alt="" width="36" height="36">Field Intelligence</div>
-    <button id="commencer-voix" type="button">🔊</button>
+    <button id="commencer-voix" type="button" aria-label="Voix">🔊</button>
     <p>Touchez pour démarrer</p>
-    <p class="sous-titre">Observation satellite et conseil de rotation sans connexion.</p>
-    <button id="commencer-texte" type="button">Ouvrir le tableau de bord</button>
+    <p class="sous-titre">Observation satellite réelle de votre parcelle et conseil de rotation.</p>
+    <button id="commencer-texte" type="button">Ouvrir la carte</button>
   </div>
+
   <div class="workspace">
     <nav class="side-rail">
-      <button type="button" class="rail-btn active">🛰️</button>
-      <button type="button" class="rail-btn" onclick="if(typeof localiser==='function')localiser()">📍</button>
-      <button type="button" class="rail-btn" onclick="if(typeof photographier==='function')photographier()">📷</button>
-      <button type="button" class="rail-btn" onclick="if(typeof accueil==='function')accueil()">↻</button>
+      <button type="button" class="rail-btn active" title="Carte" onclick="if(window.centrerCarte)centrerCarte()">
+        <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2"><polygon points="3 6 9 3 15 6 21 3 21 18 15 21 9 18 3 21"/><line x1="9" y1="3" x2="9" y2="18"/><line x1="15" y1="6" x2="15" y2="21"/></svg>
+      </button>
+      <button type="button" class="rail-btn" title="Ma position GPS" onclick="if(typeof localiser==='function')localiser()">
+        <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+      </button>
+      <button type="button" class="rail-btn" title="Photo Feuille" onclick="if(typeof photographier==='function')photographier()">
+        <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2"><path d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z"/><circle cx="12" cy="13" r="4"/></svg>
+      </button>
+      <button type="button" class="rail-btn" title="Réinitialiser" onclick="if(typeof accueil==='function')accueil()">
+        <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2"><polyline points="1 4 1 10 7 10"/><path d="M3.51 15a9 9 0 1 0 2.13-9.36L1 10"/></svg>
+      </button>
     </nav>
+
     <section class="map-stage">
       <div class="map-toolbar">
-        <div><span class="pill-btn" id="badge-zone">Zone : Korhogo / Bouaké</span> <span class="pill-btn" id="badge-sante">Vigueur : -- %</span></div>
-        <div><span class="tab active">NDVI</span> <span class="tab">SOL</span> <span class="tab">CLIMAT</span></div>
-      </div>
-      <div class="parcel-canvas">
-        <svg viewBox="0 0 600 340" class="parcel-svg" preserveAspectRatio="xMidYMid slice">
-          <rect width="600" height="340" fill="#17261c"/>
-          <path d="M0,40 L600,15 L600,340 L0,340 Z" fill="#1d3324"/>
-          <polygon points="215,28 385,22 440,312 185,318" fill="#3a6b35" stroke="#86efac" stroke-width="2" stroke-dasharray="6,4"/>
-          <polygon id="zone-stress-poly" points="215,28 295,25 275,315 185,318" fill="#eab308" fill-opacity="0.72"/>
-          <text x="310" y="175" fill="#fff" font-size="13" font-weight="700" text-anchor="middle" id="map-label">PARCELLE ANALYSÉE (10M)</text>
-        </svg>
-        <div class="legend-box">
-          <div class="legend-title">Vigueur Satellite</div>
-          <div class="legend-item"><span class="dot" style="background:#22c55e"></span> Élevée</div>
-          <div class="legend-item"><span class="dot" style="background:#eab308"></span> Modérée</div>
-          <div class="legend-item"><span class="dot" style="background:#ef4444"></span> Stress</div>
+        <div class="toolbar-group">
+          <span class="pill-btn" id="badge-zone">GPS : En attente</span>
+          <span class="pill-btn" id="badge-sante">Statut : Non analysé</span>
+        </div>
+        <div class="toolbar-group">
+          <button type="button" class="tab active" id="btn-sat" onclick="if(window.basculerFond)basculerFond('sat')">Satellite</button>
+          <button type="button" class="tab" id="btn-plan" onclick="if(window.basculerFond)basculerFond('plan')">Carte</button>
         </div>
       </div>
+
+      <div class="parcel-canvas">
+        <div id="map"></div>
+        <div class="legend-box" id="legend-box" hidden>
+          <div class="legend-title">Périmètre Détecté</div>
+          <div class="legend-item"><span class="dot" style="border:2px solid #ef4444;background:rgba(239,68,68,.25)"></span> Zone à surveiller</div>
+          <div class="legend-item"><span class="dot" style="border:2px solid #22c55e;background:rgba(34,197,94,.2)"></span> Parcelle saine</div>
+        </div>
+      </div>
+
       <div class="weather-strip">
-        <div class="weather-header"><span>Profil Agro-Climatique NASA (2001–2024)</span><span class="weather-tag">Hors-ligne</span></div>
-        <div class="jauge-fond"><div class="jauge-barre vert" id="kpi-barre" style="width: 68%"></div></div>
+        <div class="weather-header">
+          <span id="weather-label">Archives NASA POWER &amp; IMERG (2001–2024)</span>
+          <span class="weather-tag" id="weather-coords">9.458°N, -5.629°O</span>
+        </div>
+        <div class="jauge-fond"><div class="jauge-barre vert" id="kpi-barre" style="width: 0%"></div></div>
       </div>
     </section>
+
     <aside class="assistant-drawer">
-      <div class="drawer-header"><span>Conseiller Agronome IA</span><span class="drawer-badge">Actif</span></div>
+      <div class="drawer-header"><span>Conseiller Agronome IA</span><span class="drawer-badge">Hors-ligne prêt</span></div>
       <main id="fil" aria-live="polite"></main>
       <footer id="choix"></footer>
     </aside>
   </div>
+
+  <script src="https://unpkg.com" crossorigin=""></script>
+  <script src="carte.js"></script>
   <script src="app.js"></script>
 </body>
 </html>

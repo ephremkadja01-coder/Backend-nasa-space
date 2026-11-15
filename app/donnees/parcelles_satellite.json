@@ -5,23 +5,22 @@
       "point_id": "01",
       "lat": 7.55,
       "lon": -5.15,
-      "occupation_sol": "Savane (Savannas)",
-      "ndvi_pluie": 0.709,
-      "ndvi_seche": 0.506,
-      "rupture_recommandee": false,
-      "resume": "Observation satellite NASA MODIS autour de Bouake. Indice de vigueur végétale de 0,71 en saison des pluies et 0,51 en saison sèche. Couvert végétal dense en saison des pluies : poursuite possible de la rotation planifiée.",
+      "etat_libelle": "Plantation en bonne forme",
+      "niveau_couleur": "vert",
+      "sante_pct": 82,
+      "resume": "Vue du ciel autour de Bouaké, les plantations sont bien vertes et en pleine forme. Votre terre répond bien aux pluies : gardez une rotation avec du niébé ou de l'arachide pour la protéger.",
       "explications": [
         {
-          "texte": "Occupation du sol mesurée par satellite : Savane (Savannas).",
+          "texte": "État général vu du ciel : plantation en bonne forme (82 % de vigueur).",
           "niveau": "mesure",
-          "source": "NASA AppEEARS MODIS MCD12Q1 (2001 à 2024)",
-          "detail": "Point de grille bouake_01 (7.55, -5.15)."
+          "source": "Images satellites NASA (2001 à 2024)",
+          "detail": "Secteur de Bouaké."
         },
         {
-          "texte": "Couvert végétal dense en saison des pluies : poursuite possible de la rotation planifiée.",
+          "texte": "Continuez d'alterner vos cultures (coton, maïs ou sorgho suivis d'une légumineuse) pour garder un bon rendement.",
           "niveau": "hypothese",
-          "source": "Règle agronomique CodeX Africa",
-          "detail": "À confirmer au champ avec votre conseiller ANADER."
+          "source": "Conseil agronomique",
+          "detail": "À confirmer avec votre agent ANADER."
         }
       ]
     },
@@ -30,23 +29,22 @@
       "point_id": "02",
       "lat": 7.55,
       "lon": -5.05,
-      "occupation_sol": "Savane (Savannas)",
-      "ndvi_pluie": 0.751,
-      "ndvi_seche": 0.598,
-      "rupture_recommandee": false,
-      "resume": "Observation satellite NASA MODIS autour de Bouake. Indice de vigueur végétale de 0,75 en saison des pluies et 0,60 en saison sèche. Couvert végétal dense en saison des pluies : poursuite possible de la rotation planifiée.",
+      "etat_libelle": "Plantation en bonne forme",
+      "niveau_couleur": "vert",
+      "sante_pct": 86,
+      "resume": "Vue du ciel autour de Bouaké, les plantations sont bien vertes et en pleine forme. Votre terre répond bien aux pluies : gardez une rotation avec du niébé ou de l'arachide pour la protéger.",
       "explications": [
         {
-          "texte": "Occupation du sol mesurée par satellite : Savane (Savannas).",
+          "texte": "État général vu du ciel : plantation en bonne forme (86 % de vigueur).",
           "niveau": "mesure",
-          "source": "NASA AppEEARS MODIS MCD12Q1 (2001 à 2024)",
-          "detail": "Point de grille bouake_02 (7.55, -5.05)."
+          "source": "Images satellites NASA (2001 à 2024)",
+          "detail": "Secteur de Bouaké."
         },
         {
-          "texte": "Couvert végétal dense en saison des pluies : poursuite possible de la rotation planifiée.",
+          "texte": "Continuez d'alterner vos cultures (coton, maïs ou sorgho suivis d'une légumineuse) pour garder un bon rendement.",
           "niveau": "hypothese",
-          "source": "Règle agronomique CodeX Africa",
-          "detail": "À confirmer au champ avec votre conseiller ANADER."
+          "source": "Conseil agronomique",
+          "detail": "À confirmer avec votre agent ANADER."
         }
       ]
     },
@@ -55,23 +53,22 @@
       "point_id": "03",
       "lat": 7.55,
       "lon": -4.95,
-      "occupation_sol": "Savane (Savannas)",
-      "ndvi_pluie": 0.744,
-      "ndvi_seche": 0.545,
-      "rupture_recommandee": false,
-      "resume": "Observation satellite NASA MODIS autour de Bouake. Indice de vigueur végétale de 0,74 en saison des pluies et 0,55 en saison sèche. Couvert végétal dense en saison des pluies : poursuite possible de la rotation planifiée.",
+      "etat_libelle": "Plantation en bonne forme",
+      "niveau_couleur": "vert",
+      "sante_pct": 86,
+      "resume": "Vue du ciel autour de Bouaké, les plantations sont bien vertes et en pleine forme. Votre terre répond bien aux pluies : gardez une rotation avec du niébé ou de l'arachide pour la protéger.",
       "explications": [
         {
-          "texte": "Occupation du sol mesurée par satellite : Savane (Savannas).",
+          "texte": "État général vu du ciel : plantation en bonne forme (86 % de vigueur).",
           "niveau": "mesure",
-          "source": "NASA AppEEARS MODIS MCD12Q1 (2001 à 2024)",
-          "detail": "Point de grille bouake_03 (7.55, -4.95)."
+          "source": "Images satellites NASA (2001 à 2024)",
+          "detail": "Secteur de Bouaké."
         },
         {
-          "texte": "Couvert végétal dense en saison des pluies : poursuite possible de la rotation planifiée.",
+          "texte": "Continuez d'alterner vos cultures (coton, maïs ou sorgho suivis d'une légumineuse) pour garder un bon rendement.",
           "niveau": "hypothese",
-          "source": "Règle agronomique CodeX Africa",
-          "detail": "À confirmer au champ avec votre conseiller ANADER."
+          "source": "Conseil agronomique",
+          "detail": "À confirmer avec votre agent ANADER."
         }
       ]
     },
@@ -80,23 +77,22 @@
       "point_id": "04",
       "lat": 7.65,
       "lon": -5.15,
-      "occupation_sol": "Savane (Savannas)",
-      "ndvi_pluie": 0.715,
-      "ndvi_seche": 0.527,
-      "rupture_recommandee": false,
-      "resume": "Observation satellite NASA MODIS autour de Bouake. Indice de vigueur végétale de 0,71 en saison des pluies et 0,53 en saison sèche. Couvert végétal dense en saison des pluies : poursuite possible de la rotation planifiée.",
+      "etat_libelle": "Plantation en bonne forme",
+      "niveau_couleur": "vert",
+      "sante_pct": 82,
+      "resume": "Vue du ciel autour de Bouaké, les plantations sont bien vertes et en pleine forme. Votre terre répond bien aux pluies : gardez une rotation avec du niébé ou de l'arachide pour la protéger.",
       "explications": [
         {
-          "texte": "Occupation du sol mesurée par satellite : Savane (Savannas).",
+          "texte": "État général vu du ciel : plantation en bonne forme (82 % de vigueur).",
           "niveau": "mesure",
-          "source": "NASA AppEEARS MODIS MCD12Q1 (2001 à 2024)",
-          "detail": "Point de grille bouake_04 (7.65, -5.15)."
+          "source": "Images satellites NASA (2001 à 2024)",
+          "detail": "Secteur de Bouaké."
         },
         {
-          "texte": "Couvert végétal dense en saison des pluies : poursuite possible de la rotation planifiée.",
+          "texte": "Continuez d'alterner vos cultures (coton, maïs ou sorgho suivis d'une légumineuse) pour garder un bon rendement.",
           "niveau": "hypothese",
-          "source": "Règle agronomique CodeX Africa",
-          "detail": "À confirmer au champ avec votre conseiller ANADER."
+          "source": "Conseil agronomique",
+          "detail": "À confirmer avec votre agent ANADER."
         }
       ]
     },
@@ -105,23 +101,22 @@
       "point_id": "05",
       "lat": 7.65,
       "lon": -5.05,
-      "occupation_sol": "Savane (Savannas)",
-      "ndvi_pluie": 0.734,
-      "ndvi_seche": 0.544,
-      "rupture_recommandee": false,
-      "resume": "Observation satellite NASA MODIS autour de Bouake. Indice de vigueur végétale de 0,73 en saison des pluies et 0,54 en saison sèche. Couvert végétal dense en saison des pluies : poursuite possible de la rotation planifiée.",
+      "etat_libelle": "Plantation en bonne forme",
+      "niveau_couleur": "vert",
+      "sante_pct": 84,
+      "resume": "Vue du ciel autour de Bouaké, les plantations sont bien vertes et en pleine forme. Votre terre répond bien aux pluies : gardez une rotation avec du niébé ou de l'arachide pour la protéger.",
       "explications": [
         {
-          "texte": "Occupation du sol mesurée par satellite : Savane (Savannas).",
+          "texte": "État général vu du ciel : plantation en bonne forme (84 % de vigueur).",
           "niveau": "mesure",
-          "source": "NASA AppEEARS MODIS MCD12Q1 (2001 à 2024)",
-          "detail": "Point de grille bouake_05 (7.65, -5.05)."
+          "source": "Images satellites NASA (2001 à 2024)",
+          "detail": "Secteur de Bouaké."
         },
         {
-          "texte": "Couvert végétal dense en saison des pluies : poursuite possible de la rotation planifiée.",
+          "texte": "Continuez d'alterner vos cultures (coton, maïs ou sorgho suivis d'une légumineuse) pour garder un bon rendement.",
           "niveau": "hypothese",
-          "source": "Règle agronomique CodeX Africa",
-          "detail": "À confirmer au champ avec votre conseiller ANADER."
+          "source": "Conseil agronomique",
+          "detail": "À confirmer avec votre agent ANADER."
         }
       ]
     },
@@ -130,23 +125,22 @@
       "point_id": "06",
       "lat": 7.65,
       "lon": -4.95,
-      "occupation_sol": "Savane (Savannas)",
-      "ndvi_pluie": 0.754,
-      "ndvi_seche": 0.602,
-      "rupture_recommandee": false,
-      "resume": "Observation satellite NASA MODIS autour de Bouake. Indice de vigueur végétale de 0,75 en saison des pluies et 0,60 en saison sèche. Couvert végétal dense en saison des pluies : poursuite possible de la rotation planifiée.",
+      "etat_libelle": "Plantation en bonne forme",
+      "niveau_couleur": "vert",
+      "sante_pct": 87,
+      "resume": "Vue du ciel autour de Bouaké, les plantations sont bien vertes et en pleine forme. Votre terre répond bien aux pluies : gardez une rotation avec du niébé ou de l'arachide pour la protéger.",
       "explications": [
         {
-          "texte": "Occupation du sol mesurée par satellite : Savane (Savannas).",
+          "texte": "État général vu du ciel : plantation en bonne forme (87 % de vigueur).",
           "niveau": "mesure",
-          "source": "NASA AppEEARS MODIS MCD12Q1 (2001 à 2024)",
-          "detail": "Point de grille bouake_06 (7.65, -4.95)."
+          "source": "Images satellites NASA (2001 à 2024)",
+          "detail": "Secteur de Bouaké."
         },
         {
-          "texte": "Couvert végétal dense en saison des pluies : poursuite possible de la rotation planifiée.",
+          "texte": "Continuez d'alterner vos cultures (coton, maïs ou sorgho suivis d'une légumineuse) pour garder un bon rendement.",
           "niveau": "hypothese",
-          "source": "Règle agronomique CodeX Africa",
-          "detail": "À confirmer au champ avec votre conseiller ANADER."
+          "source": "Conseil agronomique",
+          "detail": "À confirmer avec votre agent ANADER."
         }
       ]
     },
@@ -155,23 +149,22 @@
       "point_id": "07",
       "lat": 7.75,
       "lon": -5.15,
-      "occupation_sol": "Savane (Savannas)",
-      "ndvi_pluie": 0.743,
-      "ndvi_seche": 0.626,
-      "rupture_recommandee": false,
-      "resume": "Observation satellite NASA MODIS autour de Bouake. Indice de vigueur végétale de 0,74 en saison des pluies et 0,63 en saison sèche. Couvert végétal dense en saison des pluies : poursuite possible de la rotation planifiée.",
+      "etat_libelle": "Plantation en bonne forme",
+      "niveau_couleur": "vert",
+      "sante_pct": 85,
+      "resume": "Vue du ciel autour de Bouaké, les plantations sont bien vertes et en pleine forme. Votre terre répond bien aux pluies : gardez une rotation avec du niébé ou de l'arachide pour la protéger.",
       "explications": [
         {
-          "texte": "Occupation du sol mesurée par satellite : Savane (Savannas).",
+          "texte": "État général vu du ciel : plantation en bonne forme (85 % de vigueur).",
           "niveau": "mesure",
-          "source": "NASA AppEEARS MODIS MCD12Q1 (2001 à 2024)",
-          "detail": "Point de grille bouake_07 (7.75, -5.15)."
+          "source": "Images satellites NASA (2001 à 2024)",
+          "detail": "Secteur de Bouaké."
         },
         {
-          "texte": "Couvert végétal dense en saison des pluies : poursuite possible de la rotation planifiée.",
+          "texte": "Continuez d'alterner vos cultures (coton, maïs ou sorgho suivis d'une légumineuse) pour garder un bon rendement.",
           "niveau": "hypothese",
-          "source": "Règle agronomique CodeX Africa",
-          "detail": "À confirmer au champ avec votre conseiller ANADER."
+          "source": "Conseil agronomique",
+          "detail": "À confirmer avec votre agent ANADER."
         }
       ]
     },
@@ -180,23 +173,22 @@
       "point_id": "08",
       "lat": 7.75,
       "lon": -5.05,
-      "occupation_sol": "Zone urbaine et bâtie (Urban)",
-      "ndvi_pluie": 0.671,
-      "ndvi_seche": 0.468,
-      "rupture_recommandee": false,
-      "resume": "Observation satellite NASA MODIS autour de Bouake. Indice de vigueur végétale de 0,67 en saison des pluies et 0,47 en saison sèche. Zone urbaine détectée par satellite : les conseils concernent les parcelles agricoles voisines.",
+      "etat_libelle": "Zone habitée",
+      "niveau_couleur": "orange",
+      "sante_pct": 77,
+      "resume": "Vue du ciel autour de Bouaké, ce secteur correspond à une zone habitée. Pour vos champs situés autour du village, alternez toujours le maïs ou le coton avec de l'arachide ou du niébé.",
       "explications": [
         {
-          "texte": "Occupation du sol mesurée par satellite : Zone urbaine et bâtie (Urban).",
+          "texte": "État général vu du ciel : zone habitée (77 % de vigueur).",
           "niveau": "mesure",
-          "source": "NASA AppEEARS MODIS MCD12Q1 (2001 à 2024)",
-          "detail": "Point de grille bouake_08 (7.75, -5.05)."
+          "source": "Images satellites NASA (2001 à 2024)",
+          "detail": "Secteur de Bouaké."
         },
         {
-          "texte": "Zone urbaine détectée par satellite : les conseils concernent les parcelles agricoles voisines.",
+          "texte": "Changez de culture chaque saison (céréale puis légumineuse) pour éviter d'épuiser la terre.",
           "niveau": "hypothese",
-          "source": "Règle agronomique CodeX Africa",
-          "detail": "À confirmer au champ avec votre conseiller ANADER."
+          "source": "Conseil agronomique",
+          "detail": "À confirmer avec votre agent ANADER."
         }
       ]
     },
@@ -205,23 +197,22 @@
       "point_id": "09",
       "lat": 7.75,
       "lon": -4.95,
-      "occupation_sol": "Savane (Savannas)",
-      "ndvi_pluie": 0.671,
-      "ndvi_seche": 0.473,
-      "rupture_recommandee": false,
-      "resume": "Observation satellite NASA MODIS autour de Bouake. Indice de vigueur végétale de 0,67 en saison des pluies et 0,47 en saison sèche. Couvert végétal dense en saison des pluies : poursuite possible de la rotation planifiée.",
+      "etat_libelle": "Plantation en bonne forme",
+      "niveau_couleur": "vert",
+      "sante_pct": 77,
+      "resume": "Vue du ciel autour de Bouaké, les plantations sont bien vertes et en pleine forme. Votre terre répond bien aux pluies : gardez une rotation avec du niébé ou de l'arachide pour la protéger.",
       "explications": [
         {
-          "texte": "Occupation du sol mesurée par satellite : Savane (Savannas).",
+          "texte": "État général vu du ciel : plantation en bonne forme (77 % de vigueur).",
           "niveau": "mesure",
-          "source": "NASA AppEEARS MODIS MCD12Q1 (2001 à 2024)",
-          "detail": "Point de grille bouake_09 (7.75, -4.95)."
+          "source": "Images satellites NASA (2001 à 2024)",
+          "detail": "Secteur de Bouaké."
         },
         {
-          "texte": "Couvert végétal dense en saison des pluies : poursuite possible de la rotation planifiée.",
+          "texte": "Continuez d'alterner vos cultures (coton, maïs ou sorgho suivis d'une légumineuse) pour garder un bon rendement.",
           "niveau": "hypothese",
-          "source": "Règle agronomique CodeX Africa",
-          "detail": "À confirmer au champ avec votre conseiller ANADER."
+          "source": "Conseil agronomique",
+          "detail": "À confirmer avec votre agent ANADER."
         }
       ]
     },
@@ -230,23 +221,22 @@
       "point_id": "01",
       "lat": 9.35,
       "lon": -5.75,
-      "occupation_sol": "Prairies (Grasslands)",
-      "ndvi_pluie": 0.593,
-      "ndvi_seche": 0.398,
-      "rupture_recommandee": true,
-      "resume": "Observation satellite NASA MODIS autour de Korhogo. Indice de vigueur végétale de 0,59 en saison des pluies et 0,40 en saison sèche. Vigueur végétale modérée en saison des pluies : privilégier une légumineuse (arachide, niébé) pour enrichir le sol.",
+      "etat_libelle": "Terre un peu fatiguée",
+      "niveau_couleur": "orange",
+      "sante_pct": 68,
+      "resume": "Vue du ciel autour de Korhogo, les plantations montrent des signes de fatigue. Pour reposer votre terre et éviter les maladies, plantez de l'arachide ou du niébé la prochaine saison.",
       "explications": [
         {
-          "texte": "Occupation du sol mesurée par satellite : Prairies (Grasslands).",
+          "texte": "État général vu du ciel : terre un peu fatiguée (68 % de vigueur).",
           "niveau": "mesure",
-          "source": "NASA AppEEARS MODIS MCD12Q1 (2001 à 2024)",
-          "detail": "Point de grille korhogo_01 (9.35, -5.75)."
+          "source": "Images satellites NASA (2001 à 2024)",
+          "detail": "Secteur de Korhogo."
         },
         {
-          "texte": "Vigueur végétale modérée en saison des pluies : privilégier une légumineuse (arachide, niébé) pour enrichir le sol.",
+          "texte": "Ne replantez pas la même culture au même endroit : l'arachide ou le niébé vont nourrir la terre naturellement.",
           "niveau": "hypothese",
-          "source": "Règle agronomique CodeX Africa",
-          "detail": "À confirmer au champ avec votre conseiller ANADER."
+          "source": "Conseil agronomique",
+          "detail": "À confirmer avec votre agent ANADER."
         }
       ]
     },
@@ -255,23 +245,22 @@
       "point_id": "02",
       "lat": 9.35,
       "lon": -5.65,
-      "occupation_sol": "Prairies (Grasslands)",
-      "ndvi_pluie": 0.615,
-      "ndvi_seche": 0.499,
-      "rupture_recommandee": true,
-      "resume": "Observation satellite NASA MODIS autour de Korhogo. Indice de vigueur végétale de 0,61 en saison des pluies et 0,50 en saison sèche. Vigueur végétale modérée en saison des pluies : privilégier une légumineuse (arachide, niébé) pour enrichir le sol.",
+      "etat_libelle": "Terre un peu fatiguée",
+      "niveau_couleur": "orange",
+      "sante_pct": 71,
+      "resume": "Vue du ciel autour de Korhogo, les plantations montrent des signes de fatigue. Pour reposer votre terre et éviter les maladies, plantez de l'arachide ou du niébé la prochaine saison.",
       "explications": [
         {
-          "texte": "Occupation du sol mesurée par satellite : Prairies (Grasslands).",
+          "texte": "État général vu du ciel : terre un peu fatiguée (71 % de vigueur).",
           "niveau": "mesure",
-          "source": "NASA AppEEARS MODIS MCD12Q1 (2001 à 2024)",
-          "detail": "Point de grille korhogo_02 (9.35, -5.65)."
+          "source": "Images satellites NASA (2001 à 2024)",
+          "detail": "Secteur de Korhogo."
         },
         {
-          "texte": "Vigueur végétale modérée en saison des pluies : privilégier une légumineuse (arachide, niébé) pour enrichir le sol.",
+          "texte": "Ne replantez pas la même culture au même endroit : l'arachide ou le niébé vont nourrir la terre naturellement.",
           "niveau": "hypothese",
-          "source": "Règle agronomique CodeX Africa",
-          "detail": "À confirmer au champ avec votre conseiller ANADER."
+          "source": "Conseil agronomique",
+          "detail": "À confirmer avec votre agent ANADER."
         }
       ]
     },
@@ -280,23 +269,22 @@
       "point_id": "03",
       "lat": 9.35,
       "lon": -5.55,
-      "occupation_sol": "Prairies (Grasslands)",
-      "ndvi_pluie": 0.559,
-      "ndvi_seche": 0.396,
-      "rupture_recommandee": true,
-      "resume": "Observation satellite NASA MODIS autour de Korhogo. Indice de vigueur végétale de 0,56 en saison des pluies et 0,40 en saison sèche. Vigueur végétale modérée en saison des pluies : privilégier une légumineuse (arachide, niébé) pour enrichir le sol.",
+      "etat_libelle": "Terre un peu fatiguée",
+      "niveau_couleur": "orange",
+      "sante_pct": 64,
+      "resume": "Vue du ciel autour de Korhogo, les plantations montrent des signes de fatigue. Pour reposer votre terre et éviter les maladies, plantez de l'arachide ou du niébé la prochaine saison.",
       "explications": [
         {
-          "texte": "Occupation du sol mesurée par satellite : Prairies (Grasslands).",
+          "texte": "État général vu du ciel : terre un peu fatiguée (64 % de vigueur).",
           "niveau": "mesure",
-          "source": "NASA AppEEARS MODIS MCD12Q1 (2001 à 2024)",
-          "detail": "Point de grille korhogo_03 (9.35, -5.55)."
+          "source": "Images satellites NASA (2001 à 2024)",
+          "detail": "Secteur de Korhogo."
         },
         {
-          "texte": "Vigueur végétale modérée en saison des pluies : privilégier une légumineuse (arachide, niébé) pour enrichir le sol.",
+          "texte": "Ne replantez pas la même culture au même endroit : l'arachide ou le niébé vont nourrir la terre naturellement.",
           "niveau": "hypothese",
-          "source": "Règle agronomique CodeX Africa",
-          "detail": "À confirmer au champ avec votre conseiller ANADER."
+          "source": "Conseil agronomique",
+          "detail": "À confirmer avec votre agent ANADER."
         }
       ]
     },
@@ -305,23 +293,22 @@
       "point_id": "04",
       "lat": 9.45,
       "lon": -5.75,
-      "occupation_sol": "Prairies (Grasslands)",
-      "ndvi_pluie": 0.627,
-      "ndvi_seche": 0.442,
-      "rupture_recommandee": true,
-      "resume": "Observation satellite NASA MODIS autour de Korhogo. Indice de vigueur végétale de 0,63 en saison des pluies et 0,44 en saison sèche. Vigueur végétale modérée en saison des pluies : privilégier une légumineuse (arachide, niébé) pour enrichir le sol.",
+      "etat_libelle": "Terre un peu fatiguée",
+      "niveau_couleur": "orange",
+      "sante_pct": 72,
+      "resume": "Vue du ciel autour de Korhogo, les plantations montrent des signes de fatigue. Pour reposer votre terre et éviter les maladies, plantez de l'arachide ou du niébé la prochaine saison.",
       "explications": [
         {
-          "texte": "Occupation du sol mesurée par satellite : Prairies (Grasslands).",
+          "texte": "État général vu du ciel : terre un peu fatiguée (72 % de vigueur).",
           "niveau": "mesure",
-          "source": "NASA AppEEARS MODIS MCD12Q1 (2001 à 2024)",
-          "detail": "Point de grille korhogo_04 (9.45, -5.75)."
+          "source": "Images satellites NASA (2001 à 2024)",
+          "detail": "Secteur de Korhogo."
         },
         {
-          "texte": "Vigueur végétale modérée en saison des pluies : privilégier une légumineuse (arachide, niébé) pour enrichir le sol.",
+          "texte": "Ne replantez pas la même culture au même endroit : l'arachide ou le niébé vont nourrir la terre naturellement.",
           "niveau": "hypothese",
-          "source": "Règle agronomique CodeX Africa",
-          "detail": "À confirmer au champ avec votre conseiller ANADER."
+          "source": "Conseil agronomique",
+          "detail": "À confirmer avec votre agent ANADER."
         }
       ]
     },
@@ -330,23 +317,22 @@
       "point_id": "05",
       "lat": 9.45,
       "lon": -5.65,
-      "occupation_sol": "Prairies (Grasslands)",
-      "ndvi_pluie": 0.561,
-      "ndvi_seche": 0.337,
-      "rupture_recommandee": true,
-      "resume": "Observation satellite NASA MODIS autour de Korhogo. Indice de vigueur végétale de 0,56 en saison des pluies et 0,34 en saison sèche. Vigueur végétale modérée en saison des pluies : privilégier une légumineuse (arachide, niébé) pour enrichir le sol.",
+      "etat_libelle": "Terre un peu fatiguée",
+      "niveau_couleur": "orange",
+      "sante_pct": 65,
+      "resume": "Vue du ciel autour de Korhogo, les plantations montrent des signes de fatigue. Pour reposer votre terre et éviter les maladies, plantez de l'arachide ou du niébé la prochaine saison.",
       "explications": [
         {
-          "texte": "Occupation du sol mesurée par satellite : Prairies (Grasslands).",
+          "texte": "État général vu du ciel : terre un peu fatiguée (65 % de vigueur).",
           "niveau": "mesure",
-          "source": "NASA AppEEARS MODIS MCD12Q1 (2001 à 2024)",
-          "detail": "Point de grille korhogo_05 (9.45, -5.65)."
+          "source": "Images satellites NASA (2001 à 2024)",
+          "detail": "Secteur de Korhogo."
         },
         {
-          "texte": "Vigueur végétale modérée en saison des pluies : privilégier une légumineuse (arachide, niébé) pour enrichir le sol.",
+          "texte": "Ne replantez pas la même culture au même endroit : l'arachide ou le niébé vont nourrir la terre naturellement.",
           "niveau": "hypothese",
-          "source": "Règle agronomique CodeX Africa",
-          "detail": "À confirmer au champ avec votre conseiller ANADER."
+          "source": "Conseil agronomique",
+          "detail": "À confirmer avec votre agent ANADER."
         }
       ]
     },
@@ -355,23 +341,22 @@
       "point_id": "06",
       "lat": 9.45,
       "lon": -5.55,
-      "occupation_sol": "Prairies (Grasslands)",
-      "ndvi_pluie": 0.612,
-      "ndvi_seche": 0.439,
-      "rupture_recommandee": true,
-      "resume": "Observation satellite NASA MODIS autour de Korhogo. Indice de vigueur végétale de 0,61 en saison des pluies et 0,44 en saison sèche. Vigueur végétale modérée en saison des pluies : privilégier une légumineuse (arachide, niébé) pour enrichir le sol.",
+      "etat_libelle": "Terre un peu fatiguée",
+      "niveau_couleur": "orange",
+      "sante_pct": 70,
+      "resume": "Vue du ciel autour de Korhogo, les plantations montrent des signes de fatigue. Pour reposer votre terre et éviter les maladies, plantez de l'arachide ou du niébé la prochaine saison.",
       "explications": [
         {
-          "texte": "Occupation du sol mesurée par satellite : Prairies (Grasslands).",
+          "texte": "État général vu du ciel : terre un peu fatiguée (70 % de vigueur).",
           "niveau": "mesure",
-          "source": "NASA AppEEARS MODIS MCD12Q1 (2001 à 2024)",
-          "detail": "Point de grille korhogo_06 (9.45, -5.55)."
+          "source": "Images satellites NASA (2001 à 2024)",
+          "detail": "Secteur de Korhogo."
         },
         {
-          "texte": "Vigueur végétale modérée en saison des pluies : privilégier une légumineuse (arachide, niébé) pour enrichir le sol.",
+          "texte": "Ne replantez pas la même culture au même endroit : l'arachide ou le niébé vont nourrir la terre naturellement.",
           "niveau": "hypothese",
-          "source": "Règle agronomique CodeX Africa",
-          "detail": "À confirmer au champ avec votre conseiller ANADER."
+          "source": "Conseil agronomique",
+          "detail": "À confirmer avec votre agent ANADER."
         }
       ]
     },
@@ -380,23 +365,22 @@
       "point_id": "07",
       "lat": 9.55,
       "lon": -5.75,
-      "occupation_sol": "Prairies (Grasslands)",
-      "ndvi_pluie": 0.664,
-      "ndvi_seche": 0.461,
-      "rupture_recommandee": false,
-      "resume": "Observation satellite NASA MODIS autour de Korhogo. Indice de vigueur végétale de 0,66 en saison des pluies et 0,46 en saison sèche. Couvert végétal dense en saison des pluies : poursuite possible de la rotation planifiée.",
+      "etat_libelle": "Plantation en bonne forme",
+      "niveau_couleur": "vert",
+      "sante_pct": 76,
+      "resume": "Vue du ciel autour de Korhogo, les plantations sont bien vertes et en pleine forme. Votre terre répond bien aux pluies : gardez une rotation avec du niébé ou de l'arachide pour la protéger.",
       "explications": [
         {
-          "texte": "Occupation du sol mesurée par satellite : Prairies (Grasslands).",
+          "texte": "État général vu du ciel : plantation en bonne forme (76 % de vigueur).",
           "niveau": "mesure",
-          "source": "NASA AppEEARS MODIS MCD12Q1 (2001 à 2024)",
-          "detail": "Point de grille korhogo_07 (9.55, -5.75)."
+          "source": "Images satellites NASA (2001 à 2024)",
+          "detail": "Secteur de Korhogo."
         },
         {
-          "texte": "Couvert végétal dense en saison des pluies : poursuite possible de la rotation planifiée.",
+          "texte": "Continuez d'alterner vos cultures (coton, maïs ou sorgho suivis d'une légumineuse) pour garder un bon rendement.",
           "niveau": "hypothese",
-          "source": "Règle agronomique CodeX Africa",
-          "detail": "À confirmer au champ avec votre conseiller ANADER."
+          "source": "Conseil agronomique",
+          "detail": "À confirmer avec votre agent ANADER."
         }
       ]
     },
@@ -405,23 +389,22 @@
       "point_id": "08",
       "lat": 9.55,
       "lon": -5.65,
-      "occupation_sol": "Prairies (Grasslands)",
-      "ndvi_pluie": 0.601,
-      "ndvi_seche": 0.458,
-      "rupture_recommandee": true,
-      "resume": "Observation satellite NASA MODIS autour de Korhogo. Indice de vigueur végétale de 0,60 en saison des pluies et 0,46 en saison sèche. Vigueur végétale modérée en saison des pluies : privilégier une légumineuse (arachide, niébé) pour enrichir le sol.",
+      "etat_libelle": "Terre un peu fatiguée",
+      "niveau_couleur": "orange",
+      "sante_pct": 69,
+      "resume": "Vue du ciel autour de Korhogo, les plantations montrent des signes de fatigue. Pour reposer votre terre et éviter les maladies, plantez de l'arachide ou du niébé la prochaine saison.",
       "explications": [
         {
-          "texte": "Occupation du sol mesurée par satellite : Prairies (Grasslands).",
+          "texte": "État général vu du ciel : terre un peu fatiguée (69 % de vigueur).",
           "niveau": "mesure",
-          "source": "NASA AppEEARS MODIS MCD12Q1 (2001 à 2024)",
-          "detail": "Point de grille korhogo_08 (9.55, -5.65)."
+          "source": "Images satellites NASA (2001 à 2024)",
+          "detail": "Secteur de Korhogo."
         },
         {
-          "texte": "Vigueur végétale modérée en saison des pluies : privilégier une légumineuse (arachide, niébé) pour enrichir le sol.",
+          "texte": "Ne replantez pas la même culture au même endroit : l'arachide ou le niébé vont nourrir la terre naturellement.",
           "niveau": "hypothese",
-          "source": "Règle agronomique CodeX Africa",
-          "detail": "À confirmer au champ avec votre conseiller ANADER."
+          "source": "Conseil agronomique",
+          "detail": "À confirmer avec votre agent ANADER."
         }
       ]
     },
@@ -430,23 +413,22 @@
       "point_id": "09",
       "lat": 9.55,
       "lon": -5.55,
-      "occupation_sol": "Prairies (Grasslands)",
-      "ndvi_pluie": 0.588,
-      "ndvi_seche": 0.414,
-      "rupture_recommandee": true,
-      "resume": "Observation satellite NASA MODIS autour de Korhogo. Indice de vigueur végétale de 0,59 en saison des pluies et 0,41 en saison sèche. Vigueur végétale modérée en saison des pluies : privilégier une légumineuse (arachide, niébé) pour enrichir le sol.",
+      "etat_libelle": "Terre un peu fatiguée",
+      "niveau_couleur": "orange",
+      "sante_pct": 68,
+      "resume": "Vue du ciel autour de Korhogo, les plantations montrent des signes de fatigue. Pour reposer votre terre et éviter les maladies, plantez de l'arachide ou du niébé la prochaine saison.",
       "explications": [
         {
-          "texte": "Occupation du sol mesurée par satellite : Prairies (Grasslands).",
+          "texte": "État général vu du ciel : terre un peu fatiguée (68 % de vigueur).",
           "niveau": "mesure",
-          "source": "NASA AppEEARS MODIS MCD12Q1 (2001 à 2024)",
-          "detail": "Point de grille korhogo_09 (9.55, -5.55)."
+          "source": "Images satellites NASA (2001 à 2024)",
+          "detail": "Secteur de Korhogo."
         },
         {
-          "texte": "Vigueur végétale modérée en saison des pluies : privilégier une légumineuse (arachide, niébé) pour enrichir le sol.",
+          "texte": "Ne replantez pas la même culture au même endroit : l'arachide ou le niébé vont nourrir la terre naturellement.",
           "niveau": "hypothese",
-          "source": "Règle agronomique CodeX Africa",
-          "detail": "À confirmer au champ avec votre conseiller ANADER."
+          "source": "Conseil agronomique",
+          "detail": "À confirmer avec votre agent ANADER."
         }
       ]
     }
